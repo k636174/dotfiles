@@ -1,6 +1,9 @@
 # .bashrc
 
-# Backspace to delete previous charactor 
+# BASH_HISTORY
+export HISTSIZE=100000
+
+# Backspace to delete previous charactor
 stty erase "^?"
 
 # User specific aliases and functions
@@ -16,5 +19,5 @@ fi
 
 PATH=$PATH:$HOME/bin:/usr/local/bin/composer
 
-# gitbook用 
+# gitbook用
 PATH=/Applications/calibre.app/Contents/MacOS:$PATH
