@@ -15,3 +15,6 @@ if [ -f /etc/bashrc ]; then
 fi
 
 PATH=$PATH:$HOME/bin:/usr/local/bin/composer
+
+# gitbook用 
+PATH=/Applications/calibre.app/Contents/MacOS:$PATH
