@@ -6,4 +6,5 @@ dotfiles for mac and linux
 ```
 $ ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 $ ln -s ~/dotfiles/bash/.bashrc ~/.bashrc
+$ ln -s ~/dotfiles/zsh/.zshrc ~/.zshrc
 ```
