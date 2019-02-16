@@ -1,7 +1,7 @@
 # dotfiles
 dotfiles for mac and linux
 
-# vimrc
+# 特定のRCファイルだけ使いたいとき。
 使い始めるときに下記のコマンドを実行
 ```
 $ ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
