@@ -20,3 +20,8 @@ eval "$(goenv init -)"
 
 export GOPATH=$HOME/Desktop/Projects
 PATH=$PATH:$GOPATH/bin
+
+# Ruby
+[[ -d ~/.rbenv  ]] && \
+  export PATH=${HOME}/.rbenv/bin:${PATH} && \
+  eval "$(rbenv init -)"
